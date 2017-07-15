@@ -1,0 +1,20 @@
+2017/07/14 22:14:56 INFO  15696/tui_get_stty_erase:1705: stty/termios:erase=
+2017/07/14 22:14:56 INFO  15696/tui_tk_ti_getstr:1722: libtermkey:kbs=
+2017/07/14 22:14:56 INFO  15696/tui_tk_ti_getstr:1727: libtermkey:kdch1=[3~
+2017/07/14 22:14:56 INFO  15696/main:549: starting main loop
+2017/07/14 22:19:17 INFO  15992/tui_get_stty_erase:1705: stty/termios:erase=
+2017/07/14 22:19:17 INFO  15992/tui_tk_ti_getstr:1722: libtermkey:kbs=
+2017/07/14 22:19:17 INFO  15992/tui_tk_ti_getstr:1727: libtermkey:kdch1=[3~
+2017/07/14 22:19:17 INFO  15992/main:549: starting main loop
+2017/07/14 22:19:28 INFO  16003/tui_get_stty_erase:1705: stty/termios:erase=
+2017/07/14 22:19:28 INFO  16003/tui_tk_ti_getstr:1722: libtermkey:kbs=
+2017/07/14 22:19:28 INFO  16003/tui_tk_ti_getstr:1727: libtermkey:kdch1=[3~
+2017/07/14 22:19:28 INFO  16003/main:549: starting main loop
+2017/07/14 22:19:45 INFO  16012/tui_get_stty_erase:1705: stty/termios:erase=
+2017/07/14 22:19:45 INFO  16012/tui_tk_ti_getstr:1722: libtermkey:kbs=
+2017/07/14 22:19:45 INFO  16012/tui_tk_ti_getstr:1727: libtermkey:kdch1=[3~
+2017/07/14 22:19:45 INFO  16012/main:549: starting main loop
+2017/07/14 22:21:43 INFO  16126/tui_get_stty_erase:1705: stty/termios:erase=
+2017/07/14 22:21:43 INFO  16126/tui_tk_ti_getstr:1722: libtermkey:kbs=
+2017/07/14 22:21:43 INFO  16126/tui_tk_ti_getstr:1727: libtermkey:kdch1=[3~
+2017/07/14 22:21:43 INFO  16126/main:549: starting main loop

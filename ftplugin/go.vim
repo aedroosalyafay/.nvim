@@ -7,7 +7,6 @@ au FileType go set noexpandtab
 au FileType go set shiftwidth=4
 au FileType go set softtabstop=4
 au FileType go set tabstop=4
-au FileType go nmap <leader>gt :GoDeclsDir<cr>
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
@@ -30,6 +29,7 @@ endfunction
 au Filetype go nmap <leader>ga <Plug>(go-alternate-edit)
 au Filetype go nmap <leader>gah <Plug>(go-alternate-split)
 au Filetype go nmap <leader>gav <Plug>(go-alternate-vertical)
+au FileType go nmap <leader>gt :GoDeclsDir<cr>
 
 
 :nmap <leader>b :<C-u>call <SID>build_go_files()<CR>

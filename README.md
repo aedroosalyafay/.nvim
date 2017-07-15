@@ -1,2 +1,2 @@
-# .vim
-Vim plugins and configuration
+# .nvim
+nvim plugins and configuration

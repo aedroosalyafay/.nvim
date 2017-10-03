@@ -13,15 +13,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale'
 "Plug 'rust-lang/rust.vim'
 "if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'zchee/deoplete-go', { 'do': 'make'}
+"  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"  Plug 'zchee/deoplete-go', { 'do': 'make'}
 "endif
 call plug#end()
 
-if has('nvim')
-  " Enable deoplete on startup
-  let g:deoplete#enable_at_startup = 1
-endif
+"if has('nvim')
+"  " Enable deoplete on startup
+"  let g:deoplete#enable_at_startup = 1
+"endif
 
 " General
 "-------------------
@@ -90,7 +90,7 @@ source ~/.config/nvim/config/ale.vim
 nmap <F12> :set paste!<CR>
 
 " Add META(Alt)+i as escape trigger
-inoremap wj <esc>
+inoremap jj <esc>
 
 " Add alias for command in new window/buffer
 :command! -nargs=* -complete=shellcmd R new | setlocal buftype=nofile bufhidden=hide noswapfile | r !<args>
